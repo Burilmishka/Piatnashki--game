@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainCnt{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainframe{
+    height: 300px;
+    width: 302px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    /* box-sizing: border-box;
+    border: 1px solid gray; */
+}
+
+.cell1, .cell2, .cell3, .cell4, .cell5, .cell6, .cell7, .cell8, .cell9{    
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butcnt{
+    height: 34px;
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid rgb(100, 162, 255);
+    border-radius: 5px;
+    background: rgb(100, 162, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
